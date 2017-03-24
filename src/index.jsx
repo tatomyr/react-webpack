@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 
 class App extends React.Component {
   render () {
-    return <p>Change React!</p>;
+    return <p>Hello Scripts!</p>;
   }
 }
 
