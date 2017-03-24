@@ -1,9 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import Greeting from './components/Greeting.jsx';
+
 class App extends React.Component {
   render () {
-    return <p>Hello Scripts!</p>;
+    return (
+      <div>
+        <Greeting />
+      </div>
+    );
   }
 }
 
