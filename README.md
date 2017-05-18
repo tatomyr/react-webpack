@@ -51,3 +51,4 @@ import './App.scss';
 └─.babelrc
 ```
 * Use `node` version 7+
+* To keep `build/` dir untracked for `$ git diff` add `.gitattributes` file with such option: `build/* -diff`
