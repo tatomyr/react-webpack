@@ -17,19 +17,27 @@ $ npm init
 ```
 * Install and configure Webpack:
 ```
-$ npm i webpack -S
+$ npm i webpack -D
 $ touch webpack.config.js
 ```
 * Install and configure Babel-Loader:
 ```
-$ npm i babel-loader babel-preset-es2015 babel-preset-react -S
-$  touch .babelrc
+$ npm i babel-loader babel-preset-es2015 babel-preset-react -D
+$ touch .babelrc
 ```
 * Install React:
 ```
-$ npm i react react-dom -S
+$ npm i react react-dom -D
 ```
-* Complete project with structure:
+* Install Scss loaders:
+```
+$ npm i style-loader css-loader node-sass sass-loader -D
+```
+Styles should be imported directly in component:
+```javascript
+import './App.scss';
+```
+* Complete project with the structure:
 ```
 <project>/
 ├─src/
@@ -42,3 +50,4 @@ $ npm i react react-dom -S
 ├─webpack.config.js
 └─.babelrc
 ```
+* Use `node` version 7+

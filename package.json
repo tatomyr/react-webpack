@@ -6,17 +6,22 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack -d --watch",
-    "build" : "webpack -p"
+    "build": "webpack -p"
   },
   "author": "tatomyr <andrew.tatomyr@gmail.com>",
   "license": "ISC",
-  "dependencies": {
-    "babel-core": "^6.24.0",
-    "babel-loader": "^6.4.1",
-    "babel-preset-es2015": "^6.24.0",
-    "babel-preset-react": "^6.23.0",
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2",
-    "webpack": "^2.3.1"
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.1",
+    "node-sass": "^4.5.3",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "sass-loader": "^6.0.5",
+    "style-loader": "^0.17.0",
+    "webpack": "^2.5.1"
   }
 }

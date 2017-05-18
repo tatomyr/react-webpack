@@ -11,11 +11,20 @@ var config = {
     filename: 'bundle.js'
   },
   module: {
-    loaders: [
+    rules: [
       {
         test: /\.jsx?/,
         include: SRC_DIR,
         loader: 'babel-loader'
+      },
+      {
+        test: /\.scss$/,
+        include: SRC_DIR,
+        use: [
+          'style-loader',
+          'css-loader',
+          'sass-loader'
+        ]
       }
     ]
   }
