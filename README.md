@@ -17,25 +17,22 @@ $ npm init
 ```
 * Install and configure Webpack:
 ```
-$ npm i webpack -D
+$ npm i -D webpack
 $ touch webpack.config.js
 ```
+* ~Install dev-server: `$ npm i -D webpack-dev-server@2`~
 * Install and configure Babel-Loader:
 ```
-$ npm i babel-loader babel-preset-es2015 babel-preset-react -D
+$ npm i -D babel-loader babel-preset-es2015 babel-preset-react
 $ touch .babelrc
 ```
 * Install React:
 ```
-$ npm i react react-dom -D
+$ npm i -D react react-dom
 ```
 * Install Scss loaders:
 ```
-$ npm i style-loader css-loader node-sass sass-loader -D
-```
-Styles should be imported directly in component:
-```javascript
-import './App.scss';
+$ npm i -D style-loader css-loader node-sass sass-loader
 ```
 * Complete project with the structure:
 ```
@@ -50,5 +47,12 @@ import './App.scss';
 ├─webpack.config.js
 └─.babelrc
 ```
+
+# Tips
+
 * Use `node` version 7+
 * To keep `build/` dir untracked for `$ git diff` add `.gitattributes` file with such option: `build/* -diff`
+* Styles should be imported directly in component:
+```javascript
+import './App.scss';
+```
