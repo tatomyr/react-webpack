@@ -20,7 +20,10 @@ $ npm init
 $ npm i -D webpack
 $ touch webpack.config.js
 ```
-* ~Install dev-server: `$ npm i -D webpack-dev-server@2`~
+* Install dev-server:
+```
+$ npm i -D webpack-dev-server@2
+```
 * Install and configure Babel-Loader:
 ```
 $ npm i -D babel-loader babel-preset-es2015 babel-preset-react
@@ -56,3 +59,4 @@ $ npm i -D style-loader css-loader node-sass sass-loader
 ```javascript
 import './App.scss';
 ```
+* To watch project at `localhost:8080` start dev-server via `$ ./node_modules/.bin/webpack-dev-server` (or `$ npm run server`) alongside with development or production build

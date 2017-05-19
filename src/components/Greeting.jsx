@@ -1,5 +1,5 @@
 import React from 'react';
 
-import './Greeting.scss';
+import './greeting.scss';
 
-export default () => (<h1>Hello Components!</h1>);
+export default () => (<h1>Hello Dev Server!</h1>);
