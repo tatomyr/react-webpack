@@ -54,6 +54,7 @@ $ npm i -D style-loader css-loader node-sass sass-loader
 # Tips
 
 * Use `node` version 7+
+* To prevent publishing `node_modules/` to git apply this snippet: `$ echo "node_modules/" > .gitignore`
 * To keep `build/` dir untracked for `$ git diff` add `.gitattributes` file with such option: `build/* -diff`
 * Styles should be imported directly in component:
 ```javascript
